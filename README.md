@@ -1,2 +1,1 @@
-# msml602-project
-msml 602 project 
+# MSML-602 Group Project
