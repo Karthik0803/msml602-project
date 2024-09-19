@@ -1,4 +1,12 @@
 # MSML-602 Group Project
+
+Group members:
+1.Karthik Ramanathan
+2.
+3.
+4.
+5.
+
 The project Dataset Location: https://grouplens.org/datasets/movielens/1m/
 
 Handling Missing Values:
