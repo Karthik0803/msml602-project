@@ -9,6 +9,7 @@ Group members:
 
 The project Dataset Location: https://grouplens.org/datasets/movielens/1m/
 PROCESSING AND CLEANING STEPS
+
 Handling Missing Values:
 We will check for any missing values in critical columns such as userId, movieId, and rating to ensure our dataset is complete and does not cause errors during analysis.
 
