@@ -46,4 +46,12 @@ If demographic information (age, gender, occupation) is included in the dataset,
 Creating Additional Features:
 We can create new features such as the number of ratings per user, the average rating per user, or the average rating per movie to enrich the dataset for recommendation algorithms.
 
+Features that we are going to use as follows:
+userId, movieId, title, genres
+
+The predicted column will be:
+rating
+
+
+-- imbalanced data: we will oversample the movies that are rated the least while training the model.
 
