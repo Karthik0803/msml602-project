@@ -11,13 +11,13 @@ The project Dataset Location: https://grouplens.org/datasets/movielens/1m/
 PROCESSING AND CLEANING STEPS
 
 Handling Missing Values:
-We will check for any missing values in critical columns such as userId, movieId, and rating to ensure our dataset is complete and does not cause errors during analysis.
+We will check for missing values in critical columns such as userId, movieId, and rating to ensure our dataset is complete and does not cause errors during analysis.
 
 Removing Duplicates:
-We will ensure that no duplicate entries exist by identifying and removing any repeated rows in the dataset. Each user-movie interaction should be unique for accurate recommendations.
+We will ensure no duplicate entries exist by identifying and removing repeated rows in the dataset. Each user-movie interaction should be unique for accurate recommendations.
 
 Data Type Conversion:
-We will convert the timestamp column into a readable datetime format and ensure that userId, movieId, and rating are in the correct data types (integer for userId and movieId, and float for rating).
+We will convert the timestamp column into a readable DateTime format and ensure that userId, movieId, and rating are in the correct data types (integer for userId and movieId, and float for rating).
 
 Handling Ratings Outliers:
 We will validate that all ratings fall within the expected range (e.g., between 1 and 5). Any outliers or erroneous ratings will be removed or corrected.
@@ -48,11 +48,13 @@ We can create new features such as the number of ratings per user, the average r
 
 *** Project Part 2 ***
 
-Features that we are going to use as follows:
+1. The features that we are going to use are as follows:
 userId, movieId, title, genres
 
 The predicted column will be:
 rating
+
+2. We will encode genre lists to accomadate the multiple genres per movie issue. Also creating a new feature, average rating of users will help improve the data and result in more accurate predictions 
 
 
 3. The data isn't highly imbalanced but regardless to create a model with high efficacy and unbiased results we will be using methods like :
